@@ -265,4 +265,4 @@ def init_db():
     db_mem = {}
 
 
-init_db()
+init_db
