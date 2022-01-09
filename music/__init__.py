@@ -17,8 +17,8 @@ from config import MONGO_DB_URI as mango
 from config import (MUSIC_BOT_NAME, OWNER_ID, STRING1, STRING2, STRING3,
                     STRING4, STRING5, SUDO_USERS, UPSTREAM_BRANCH,
                     UPSTREAM_REPO, get_queue)
-from music.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4,
-                                    ASS_CLI_5, LOG_CLIENT, app)
+from music.Core.Clients.cli import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3,
+                                    ASS_CLI_4, ASS_CLI_5, LOG_CLIENT, app)
 from music.Utilities.changers import time_to_seconds
 from music.Utilities.tasks import install_requirements
 
